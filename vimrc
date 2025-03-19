@@ -27,8 +27,8 @@ autocmd FileType javascript,c,cpp,java,html,ruby,yaml,python EnableStripWhitespa
 call plug#end()
 
 " Leader Shortcuts {{{
-let mapleader = ' '
-let g:mapleader = ' '
+let mapleader = ','
+let g:mapleader = ','
 nnoremap <Leader>o :only<CR>
 nnoremap <leader><space> :noh<CR>             " Turn off highlighting until the next search
 nnoremap <leader>l :set list! list?<CR>       " Toggle list mode
